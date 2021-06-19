@@ -28,7 +28,7 @@ const Contact = () => {
                             type="email"
                             placeholder="Your Email Id..."
                             name="email"
-                            name="email"
+                            id="email"
                             className="input-box email-input"
                         />
                         <ValidationError
@@ -57,7 +57,7 @@ const Contact = () => {
                     </form>
                 </div>
 
-                // {/* Social Icons */}
+            {/* Social Icons */}
             <div className="social-icons-container">
                 <a href="https://github.com/ravitejagullapudi" rel="noreferrer" target="_blank" className="social-icon">
                     <img src={github} alt="social" />
