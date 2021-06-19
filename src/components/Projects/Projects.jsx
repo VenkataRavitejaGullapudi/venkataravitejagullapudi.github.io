@@ -13,8 +13,8 @@ const Projects = () => {
             />
             <div className="project-cards-container">
                 {
-                    projectsData.map(({ projectName, projectDescription, imageUrl, videoUrl, projectUrl }) => {
-                        return <ProjectCard projectName={projectName} projectDescription={projectDescription} imageUrl={imageUrl} videoUrl={videoUrl} projectUrl={projectUrl}/>
+                    projectsData.map(({ projectName, projectDescription, imageUrl, videoUrl, projectUrl },index) => {
+                        return <ProjectCard key={index} projectName={projectName} projectDescription={projectDescription} imageUrl={imageUrl} videoUrl={videoUrl} projectUrl={projectUrl}/>
                     })
                 }
             </div>
