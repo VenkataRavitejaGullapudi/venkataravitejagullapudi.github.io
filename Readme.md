@@ -73,3 +73,6 @@ Sketching -> UserFlows -> WireFrames -> Prototypes -> Final Design.
 Eg: 
 - If the parent overlay has some onclick method to close the modal then event bubbling happens if we click on the modal and therefore even you click on the modal it will close.
 - So to stop that specify the onclick event for the modal container and handle it by calling event.propagation() in the event handler.
+
+<!-- Using Https/ seperate login for a git repositry -->
+git config  --global credential.useHttpPath true

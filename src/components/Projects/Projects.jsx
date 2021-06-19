@@ -2,14 +2,14 @@ import React from 'react'
 import './Projects.css'
 import Header from '../Header/Header'
 import FooterLink from '../FooterLink/FooterLink'
-import { projectsData } from '../../assets/projectsData'
+import projectsData from '../../assets/projectsData'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
     return (
         <div className="section-container">
             <Header heading="My projects"
-                details="These are some of my cool projects I've worked on, do check them out!"
+                details={<span>These are some of my cool projects I've worked on, do check them out! <br/> <b>Click on the project card to go live into that project..</b></span>}
             />
             <div className="project-cards-container">
                 {

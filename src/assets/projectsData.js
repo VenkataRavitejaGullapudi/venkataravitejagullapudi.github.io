@@ -1,46 +1,41 @@
-export const projectsData = [
+const projectsData = [
     {
-        projectName: 'Name It!',
+        projectName: 'Namer Lab',
         projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj1.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0',
-        projectUrl: 'http://theleanprogrammer.com/name-it/',
+            'We find so much difficult to name our projects or ventures right? Fear not! Check out this cool name suggestion application which will help us to find the best name for our next project, venture, or startup. Keep building!',
+        imageUrl: 'https://user-images.githubusercontent.com/70102577/122653188-b5acd300-d160-11eb-91b0-b813a09e727a.png',
+        projectUrl: 'https://namer-lab.netlify.app/',
+        year:'2021'
     },
     {
-        projectName: 'FlashType',
+        projectName: 'Hyper Type',
         projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NppHNrzUSjMQbnuHS9jlAcY',
-        projectUrl: 'http://theleanprogrammer.com/flashtype/',
+            'Having a good typing speed will always help you as a developer! So, here I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
+        imageUrl: 'https://user-images.githubusercontent.com/70102577/122653186-b3e30f80-d160-11eb-9298-9ce3bae44925.png',
+        projectUrl: 'https://hyper-type.netlify.app/',
+        year:'2021'
     },
     {
         projectName: 'Flexbox Cheatsheet',
         projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
-        projectUrl: 'http://theleanprogrammer.com/flex/',
-    },
-    {
-        projectName: 'PokeDex',
-        projectDescription:
-            "Pokemon was a huge part of our childhood, wasn't it? Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokedex to check all pokemons :)",
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3',
-        projectUrl: 'http://theleanprogrammer.com/pokedex/',
+            'Must learn concept by every web developer developing frontend is CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learnt the concepts of flexbox by building a cheatsheet which is built using flexbox.',
+        imageUrl: 'https://user-images.githubusercontent.com/70102577/122653191-b6456980-d160-11eb-9a8e-bf378cd3a90e.png',
+        projectUrl: 'https://venkataravitejagullapudi.github.io/CssFlex/',
+        year:'2021'
     },
     {
         projectName: 'Portfolio Website',
         projectDescription:
             'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        imageUrl: 'https://user-images.githubusercontent.com/70102577/122653795-c5c6b180-d164-11eb-8e48-b4b7f53c3683.png',
+        projectUrl: 'https://venkataravitejagullapudi.github.io',
+        year:'2021'
     },
 ];
+projectsData.sort((a,b)=>{
+    if(new Date(a)<new Date(b)) return -1;
+    else if(new Date(a)>new Date(b)) return 1;
+    return 0;
+});
+
+export default projectsData;

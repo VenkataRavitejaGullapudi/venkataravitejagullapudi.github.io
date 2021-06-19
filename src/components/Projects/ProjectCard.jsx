@@ -1,21 +1,22 @@
 import './Projects.css'
 
-import React from 'react'
+import React, { useState } from 'react'
 
 const ProjectCard = ({ projectName, projectDescription, imageUrl, videoUrl, projectUrl }) => {
-
+    const [showFull, setShowFull] = useState(false)
     return (
         <div className="project-card">
-            <div className="image-container">
-                <a href={projectUrl} className="project-external-link">
+            <a href={projectUrl} className="project-external-link">
+                <div className="image-container">
                     <img src={imageUrl} alt="" className="project-image" />
-                </a>
-            </div>
+                </div>
+            </a>
             <div className="project-details-container">
                 <h2 className="project-heading">{projectName}</h2>
-                <p className="project-details">{projectDescription}</p>
+                <p className={showFull?"project-details":"project-details-line-clamp"}>{projectDescription}</p>
+                <a style={{ textDecoration: "underline", color: "blue", cursor: "pointer",marginTop:"-20px" }} onClick={() => setShowFull(!showFull)}>{showFull ? "Hide" : <p>See More</p>}</a>
                 {
-                    videoUrl!=null
+                    videoUrl != null
                     &&
                     <a href={videoUrl} className="project-yt-link">
                         Watch it!

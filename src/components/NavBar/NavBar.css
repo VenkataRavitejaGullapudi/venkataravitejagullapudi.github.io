@@ -9,13 +9,13 @@
 
 /* Colors to our Nav/Burger Bars */
 .bm-burger-bars{
-    background: #383a47;
+    background: rgb(122, 102, 102);
 }
 
 /* Burger/Nav btn Color on hover */
 
 .bm-burger-bars-hover{
-    background: #000;
+    background: #43475f;
 }
 
 /* Size of cross button */
@@ -40,14 +40,14 @@
 }
 .bm-menu{
     background: rgb(2,0,36);
-    background: -moz-linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(139,0,255,1) 40%, rgba(51,95,184,1) 94%, rgba(86,13,135,1) 100%);
+    /* background: -moz-linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(139,0,255,1) 40%, rgba(51,95,184,1) 94%, rgba(86,13,135,1) 100%);
     background: -webkit-linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(139,0,255,1) 40%, rgba(51,95,184,1) 94%, rgba(86,13,135,1) 100%);
     background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(139,0,255,1) 40%, rgba(51,95,184,1) 94%, rgba(86,13,135,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#560d87",GradientType=1); 
-    padding: 2.5em 1.5em 0 0;
+     */
     height: 100vh;
     overflow: hidden !important;
-
+    padding: 3.5em 1.5em 0 0;
 }
 
 .bm-item-list{
