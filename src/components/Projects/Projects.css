@@ -25,6 +25,7 @@
 
 .image-container{
     width: 100%;
+    min-height: 180px;
     border-radius: 20px;
     border-radius: 20px 20px 0 0 ;
 }
@@ -43,32 +44,52 @@
     flex-direction: column;
     justify-content: flex-start;
     align-self: flex-start;
-    padding: 20px;
+    padding: 5px 20px 20px 20px;
 }
 
 .project-yt-link{
     font-weight: 600;
     color: rgb(115, 41, 175);
 }
+.link{
+    color: rgb(115, 41, 175);
+    cursor: pointer;
+}
 
 .project-heading{
     margin: 0;
 }
+.techStack{
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .project-details{
     font-weight: 300;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 23px;
     color:#686470;
 }
 .project-details-line-clamp{
     font-weight: 300;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 23px;
     color:#686470;
     display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;  
     overflow: hidden;
+}
+
+.tech-span{
+    background-color: rgb(228, 238, 255);
+    border: 2px solid rgb(142, 174, 231);
+    border-radius: 2px;
+    font-size: 13px;
+    margin:0px 4px;
+    padding: 1px 2px;
+    /* box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.1); */
 }
 
 @media only screen and (max-width:640px){
