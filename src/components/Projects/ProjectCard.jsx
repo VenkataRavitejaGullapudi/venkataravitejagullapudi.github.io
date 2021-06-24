@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import parse from 'html-react-parser'
 import Modal from '../Modal/Modal'
 
-const ProjectCard = ({ projectName, projectDescription, imageUrl, videoUrl, projectUrl, technologyStack }) => {
+const ProjectCard = ({ projectName, projectDescription, imageUrl, videoUrl, projectUrl, technologyStack,year,month }) => {
     const [showFull, setShowFull] = useState(false)
     const [showModal, setshowModal] = useState(false)
     const closeModal = () => {
@@ -21,6 +21,9 @@ const ProjectCard = ({ projectName, projectDescription, imageUrl, videoUrl, proj
 
     return (
         <div className="project-card">
+            <div class="ribbon">
+                {month},{year}
+            </div>
             {/* Modal for detailed view */}
             {showModal && <Modal closeModal={closeModal} modalTitle={modalTitle} modalSubTitle={modalSubTitle} modalBodyPara1={modalBodyPara1} modalBodyPara2={modalBodyPara2} />}
 

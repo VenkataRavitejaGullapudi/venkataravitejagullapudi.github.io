@@ -16,7 +16,24 @@
     flex-direction: column;
     margin: 20px;
     border-radius: 20px;
+    overflow: hidden;
+    position: relative;
 }
+.ribbon{
+	position: absolute;
+    width: 150px;
+    overflow: hidden;
+    /* z-index: 1; */
+    right: -55px;
+    top: 13px;
+    font-size: 12px;
+    background: rgb(2,0,36);
+    color: white;
+    transform: rotate(45deg);
+    text-align: center;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+
 
 .project-card:hover{
     box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.4);
@@ -31,7 +48,7 @@
 }
 .project-external-link{
     text-decoration: none;
-    color: rgb(2,0,36);;
+    color: rgb(2,0,36);
 }
 .project-image{
     display: block;

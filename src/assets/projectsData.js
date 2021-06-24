@@ -100,12 +100,15 @@ const projectsData = [
         month: '05'
     },
     {
-        projectName: 'STUDENT ATTENDANCE SYSTEM',
+        projectName: 'Student Analysis System',
         projectDescription:
-            'Attendance  Automation  is  software  developed  for  daily  student  attendance  in  schools,  colleges  and institutes. This system will also help in evaluating attendance eligibility criteria of a student. The purposes are <br/> ✓ To computerizethe tradition way of taking attendance. <br/> ✓ To generate the report automatically at the end of the session or in the between of the session. <br/> ✓ Less use of paper, Computer operator control, User friendly, Generating reports easily.',
-        imageUrl: 'https://user-images.githubusercontent.com/70102577/122653795-c5c6b180-d164-11eb-8e48-b4b7f53c3683.png',
-        // projectUrl: '',
-        technologyStack:['HTML','CSS','JS','PHP','MySQL'],
+            `Student Analysis System is a software developed for analyzing the students in schools, colleges and institutes. This system will also help in evaluating performance criteria of a student. Faculty will post the report of student behavior, marks and his performance (based on some criteria) in class weekly or monthly. The purposes are
+            <br/># To maintain student progress, attendance, performance of student.
+            <br/># To expose the student performance and behavior or interaction of the student to the parents and even to him/herself for improving.
+            `,
+        imageUrl: 'https://user-images.githubusercontent.com/70102577/123323735-909ad480-d553-11eb-979c-b0fc7cb6e1a1.png',
+        projectUrl: 'https://studentanalysissystem.herokuapp.com',
+        technologyStack:['HTML','CSS','JS','Python','Django'],
         year: '2018',
         month: '08'
     },
