@@ -9,7 +9,9 @@
 }
 .about-main-right{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .about-main-left{
     display: flex;

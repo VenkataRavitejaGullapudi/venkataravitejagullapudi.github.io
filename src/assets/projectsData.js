@@ -100,6 +100,25 @@ const projectsData = [
         month: '05'
     },
     {
+        projectName: 'Human Following Rover',
+        projectDescription:
+            ` Object following robot which can find an object within a specific range and follows an object or human in specific distance.<br/>
+                This object following rover has different advantages and it is the basic for many real time applications like
+                video surveillance, human-computer interaction, robot navigation, activity recoginition, anamoly detection, virtual reality, object navigation and path detection of the today's world.
+                <br/>
+                The basic function of this robot is simple, it follows you. It goes forward as you go forward and move backward if you coming back to it. And even stops moving if you stopped 😉.
+                <br/>
+                We can also integrate it with some other features to enhance security and accuracy.
+                <br/>
+                For more details. Click on below link.
+            `,
+        imageUrl: 'https://user-images.githubusercontent.com/70102577/123467248-e9c73e80-d60d-11eb-9303-e75dd815c095.jpg',
+        projectUrl: 'https://user-images.githubusercontent.com/70102577/123467270-ee8bf280-d60d-11eb-9665-5301dc9e41f0.jpg',
+        technologyStack:['IOT','C','Arduino Uno'],
+        year: '2020',
+        month: '02'
+    },
+    {
         projectName: 'Student Analysis System',
         projectDescription:
             `Student Analysis System is a software developed for analyzing the students in schools, colleges and institutes. This system will also help in evaluating performance criteria of a student. Faculty will post the report of student behavior, marks and his performance (based on some criteria) in class weekly or monthly. The purposes are

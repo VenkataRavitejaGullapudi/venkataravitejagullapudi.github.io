@@ -22,7 +22,6 @@ const App = () => {
                 <Route path='/contact' exact component={Contact}/>
                 <GoHome/>
             </HashRouter>
-
         </div>
     )
 }

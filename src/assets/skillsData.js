@@ -1,42 +1,105 @@
+import htmlImage from './html.png'
+import cssImage from './css.png'
+import jsImage from './js.png'
+import reactImage from './react.png'
+import pythonImage from './python.png'
+import nodejsImage from './node.png'
+import nextjsImage from './next.png'
+import angularImage from './angular.png'
+import javaImage from './java.png'
+import phpImage from './php.png'
+import mongoDBImage from './mongo.png'
+import djangoImage from './django.png'
+import mysqlImage from './mysql.png'
+import mssqlImage from './mssql.png'
+import dynamoImage from './dynamo.png'
+import lambdaImage from './lambda.png'
+import s3Image from './s3.png'
+import arduinoImage from './arduino.png'
+import gitImage from './git.png'
+
+
 export const skillList = [
     {
         skillName: 'HTML',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
+        skillUrl: htmlImage,
     },
     {
         skillName: 'CSS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/css.png',
+        skillUrl: cssImage,
     },
     {
         skillName: 'JavaScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/js.png',
+        skillUrl: jsImage,
     },
     {
         skillName: 'React',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
+        skillUrl: reactImage,
     },
     {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
+        skillName: 'Python',
+        skillUrl: pythonImage,
+    },
+    {
+        skillName: 'Django',
+        skillUrl: djangoImage,
+    },
+    {
+        skillName: 'NextJS',
+        skillUrl: nextjsImage,
     },
     {
         skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
+        skillUrl: nodejsImage,
     },
     {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
+        skillName: 'Angular',
+        skillUrl: angularImage,
     },
     {
         skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
+        skillUrl: javaImage,
     },
     {
-        skillName: 'C#',
+        skillName: 'PHP',
+        skillUrl: phpImage,
+    },
+    {
+        skillName: 'C',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
     },
+
     {
         skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
+        skillUrl: mongoDBImage,
+    },
+    {
+        skillName: 'MySQL',
+        skillUrl: mysqlImage,
+    },
+    {
+        skillName: 'MSSQL',
+        skillUrl: mssqlImage,
+    },
+    {
+        skillName: 'Dynamo DB',
+        skillUrl: dynamoImage,
+    },
+    {
+        skillName: 'Lambda',
+        skillUrl: lambdaImage,
+    },
+    {
+        skillName: 'AWS S3',
+        skillUrl: s3Image,
+    },
+    
+    {
+        skillName: 'Arduino',
+        skillUrl: arduinoImage,
+    },
+    {
+        skillName: 'Git',
+        skillUrl: gitImage,
     },
 ];

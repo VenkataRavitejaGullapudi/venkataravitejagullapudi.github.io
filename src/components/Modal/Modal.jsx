@@ -16,7 +16,7 @@ const Modal = ({ closeModal, modalTitle, modalSubTitle, modalBodyPara1, modalBod
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{modalBodyPara1}</p>
                     {modalBodyPara2.includes('https') ? 
                         <a href={modalBodyPara2} className="link" target="_blank" rel="noreferrer">
-                            Go live to this project 
+                            Check it here
                         </a>
                     :
                     <p >
