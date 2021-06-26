@@ -4,17 +4,19 @@ import React, { useState } from 'react'
 import parse from 'html-react-parser'
 import Modal from '../Modal/Modal'
 
-const ProjectCard = ({ projectName, projectDescription, imageUrl, videoUrl, projectUrl, technologyStack,year,month }) => {
+const ProjectCard = ({ projectName, projectDescription, imageUrl, videoUrl, projectUrl, technologyStack, year, month }) => {
     const [showFull, setShowFull] = useState(false)
     const [showModal, setshowModal] = useState(false)
     const closeModal = () => {
         setshowModal(false)
     }
-    const techStack = <div>Tech Stack:{
-        technologyStack.map((tech, index) => {
-            return <span key={index} className="tech-span">{tech}</span>
-        })}</div>
-
+    const techStack = <div>Technologies Used: <br/>
+        <div className="tech-stack">
+            {
+                technologyStack.map((tech, index) => {
+                    return <span key={index} className="tech-span">{tech}</span>
+                })}</div>
+    </div>
 
     const [modalData, setModalData] = useState({ "modalTitle": projectName, "modalBodyPara1": parse(projectDescription), "modalBodyPara2": projectUrl + (videoUrl ? '\n' + videoUrl : ''), "modalSubTitle": techStack })
     const { modalTitle, modalSubTitle, modalBodyPara1, modalBodyPara2 } = modalData

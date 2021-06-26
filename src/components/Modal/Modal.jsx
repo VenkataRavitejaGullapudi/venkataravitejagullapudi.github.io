@@ -12,7 +12,7 @@ const Modal = ({ closeModal, modalTitle, modalSubTitle, modalBodyPara1, modalBod
                     <p className="close" onClick={closeModal}>&times;</p>
                 </div>
                 <div className="modal-body">
-                    <p>{modalSubTitle}</p>
+                    <p className="sub-title">{modalSubTitle}</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{modalBodyPara1}</p>
                     {modalBodyPara2.includes('https') ? 
                         <a href={modalBodyPara2} className="link" target="_blank" rel="noreferrer">

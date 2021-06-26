@@ -32,7 +32,7 @@ const projectsData = [
     {
         projectName: 'Portfolio Website',
         projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
+            'As a developer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
         imageUrl: 'https://user-images.githubusercontent.com/70102577/122653795-c5c6b180-d164-11eb-8e48-b4b7f53c3683.png',
         projectUrl: 'https://venkataravitejagullapudi.github.io',
         technologyStack:['HTML','CSS','JS','ReactJs'],
@@ -55,7 +55,7 @@ const projectsData = [
             <a class="link" href="https://metasave.ravitejagullapu.repl.co/">Click Here</a>`,
         imageUrl: 'https://user-images.githubusercontent.com/70102577/122687468-46a0ae80-d234-11eb-9999-11133f2e0088.png',
         projectUrl: 'https://metasave.ravitejagullapu.repl.co/',
-        technologyStack:['HTML','CSS','JS','Python','Django'],
+        technologyStack:['HTML','CSS','JS','Python','EEL'],
         year: '2021',
         month: '05'
     },

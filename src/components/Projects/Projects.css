@@ -34,7 +34,10 @@
     text-align: center;
     box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.4);
 }
-
+.tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .project-card:hover{
     box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.4);
@@ -108,9 +111,9 @@
 .tech-span{
     background-color: rgb(228, 238, 255);
     border: 2px solid rgb(142, 174, 231);
-    border-radius: 2px;
+    border-radius: 4px;
     font-size: 13px;
-    margin:0px 4px;
+    margin:3px;
     padding: 1px 2px;
     /* box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.1); */
 }
