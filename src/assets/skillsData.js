@@ -9,6 +9,7 @@ import angularImage from './angular.png'
 import javaImage from './java.png'
 import phpImage from './php.png'
 import mongoDBImage from './mongo.png'
+import cImage from './c.png'
 import djangoImage from './django.png'
 import mysqlImage from './mysql.png'
 import mssqlImage from './mssql.png'
@@ -66,7 +67,7 @@ export const skillList = [
     },
     {
         skillName: 'C',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
+        skillUrl: cImage,
     },
 
     {
