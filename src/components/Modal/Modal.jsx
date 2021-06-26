@@ -14,7 +14,7 @@ const Modal = ({ closeModal, modalTitle, modalSubTitle, modalBodyPara1, modalBod
                 <div className="modal-body">
                     <p className="sub-title">{modalSubTitle}</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{modalBodyPara1}</p>
-                    {modalBodyPara2.includes('https') ? 
+                    {modalBodyPara2.includes('http') ? 
                         <a href={modalBodyPara2} className="link" target="_blank" rel="noreferrer">
                             Check it here
                         </a>
