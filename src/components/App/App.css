@@ -10,6 +10,13 @@ body{
 input:focus, textarea:focus, select:focus{
     outline: none;
 }
+.switch-wrapper {
+    position: relative;
+  }
+  
+  .switch-wrapper > div {
+    position: absolute;
+  }
 
 .section-container{
     box-sizing: border-box;
@@ -22,7 +29,9 @@ input:focus, textarea:focus, select:focus{
     align-items: center;
     align-content: center;
 }
-
+.main{
+    transition: all 10s ease-in-out;
+}
 /* For small width screens */
 @media only screen and (max-width:640px) {
     .section-container{
