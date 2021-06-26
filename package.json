@@ -2,7 +2,7 @@
   "name": "portifolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://venkataravitejagullapudi.github.io/MyProfile",
+  "homepage": "https://venkataravitejagullapudi.github.io",
   "dependencies": {
     "@formspree/react": "^2.2.3",
     "@testing-library/jest-dom": "^5.14.1",
