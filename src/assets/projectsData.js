@@ -31,8 +31,7 @@ const projectsData = [
     },
     {
         projectName: 'Portfolio Website',
-        projectDescription:
-            'As a developer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
+        projectDescription:'A portfolio which mentions my skills, projects and other stuff about me.',
         imageUrl: 'https://user-images.githubusercontent.com/70102577/122653795-c5c6b180-d164-11eb-8e48-b4b7f53c3683.png',
         projectUrl: 'https://venkataravitejagullapudi.github.io',
         technologyStack:['HTML','CSS','JS','ReactJs'],
